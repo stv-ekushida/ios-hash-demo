@@ -12,8 +12,11 @@ module CommonCrypto {
     export *
 }
 ```
-③Build Settings -> Swift Compiler – Search Paths -> Import Pathsに<br>
-$(SRCROOT)/CommonCryptoと入力する
+③Build Settings -> Swift Compiler – Search Paths -> Import Pathsにフォルダのパスを通す
+
+```
+$(SRCROOT)/CommonCrypto
+```
 
 ④ブリッジヘッダーでヘッダーファイルをimportする
 

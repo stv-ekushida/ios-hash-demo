@@ -1,9 +1,9 @@
 # ios-hash-demo
-ハッシュ化するサンプル
+ハッシュ化するサンプルです。
 
 ## Settings
 
-①CommonCryptoディレクトリを作る<br>
+①CommonCryptoディレクトリを作る。<br>
 
 ②CommonCrypto配下にmodule.mapを作成する。
 
@@ -13,13 +13,13 @@ module CommonCrypto {
     export *
 }
 ```
-③Build Settings -> Swift Compiler – Search Paths -> Import Pathsにフォルダのパスを通す
+③Build Settings -> Swift Compiler – Search Paths -> Import Pathsにフォルダのパスを通す。
 
 ```
 $(SRCROOT)/CommonCrypto
 ```
 
-④ブリッジヘッダーでヘッダーファイルをimportする
+④ブリッジヘッダーでヘッダーファイルをimportする。
 
 ```
 #import <CommonCrypto/CommonCrypto.h>

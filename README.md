@@ -3,7 +3,7 @@
 
 ## Settings
 
-①CommonCryptoディレクトリを作る。<br>
+①プロジェクト配下にCommonCryptoディレクトリを作る。<br>
 
 ②CommonCrypto配下にmodule.mapを作成する。
 

@@ -29,10 +29,10 @@ $(SRCROOT)/CommonCrypto
 import CommonCrypto
 ```
 
-[補足] ブリッジヘッダーに定義する方法もある
+[補足] ブリッジヘッダーに定義する方法もある<br>
 ブリッジヘッダーでヘッダーファイルをimportする。
 
-```swift:sample.swift
+```objc:sample.h
 #import <CommonCrypto/CommonCrypto.h>
 ```
 

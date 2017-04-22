@@ -19,7 +19,14 @@ module CommonCrypto {
 $(SRCROOT)/CommonCrypto
 ```
 
-④ブリッジヘッダーでヘッダーファイルをimportする。
+④importする
+
+```
+import CommonCrypto
+```
+
+[補足] ブリッジヘッダーに定義する方法もある
+ブリッジヘッダーでヘッダーファイルをimportする。
 
 ```
 #import <CommonCrypto/CommonCrypto.h>

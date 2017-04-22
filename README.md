@@ -5,6 +5,10 @@
 
 ①プロジェクト配下にCommonCryptoディレクトリを作る。<br>
 
+```
+mkdir CommonCrypto
+```
+
 ②CommonCrypto配下にmodule.mapを作成する。
 
 ```:module.map
@@ -21,19 +25,19 @@ $(SRCROOT)/CommonCrypto
 
 ④importする
 
-```
+```swift:sample.swift
 import CommonCrypto
 ```
 
 [補足] ブリッジヘッダーに定義する方法もある
 ブリッジヘッダーでヘッダーファイルをimportする。
 
-```
+```swift:sample.swift
 #import <CommonCrypto/CommonCrypto.h>
 ```
 
 ## Usage
-```
+```swift:sample.swift
 let string = "demo"
 let hashedString = string.md5
 ```

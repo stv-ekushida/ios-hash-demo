@@ -40,7 +40,7 @@ let hashedString = string.md5
 
 ## サンプル
 
-```
+```swift:String+Hash.swift
 import Foundation
 import CommonCrypto
 
